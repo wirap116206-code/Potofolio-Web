@@ -104,7 +104,10 @@ const skillCategories = [
 
 export function Skills() {
   return (
-    <section id="skills" className="scroll-mt-16 relative min-h-screen overflow-hidden">
+    <section
+      id="skills"
+      className="relative min-h-screen scroll-mt-16 overflow-hidden"
+    >
       {/* Background Decoration */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute right-[10%] top-[15%] size-72 rounded-full bg-primary/10 blur-3xl" />
@@ -134,13 +137,13 @@ export function Skills() {
           {skillCategories.map((category, categoryIndex) => (
             <div
               key={category.title}
-              className="animate-fade-up rounded-2xl border border-border bg-card/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className="animate-fade-up min-w-0 rounded-2xl border border-border bg-card/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
               style={{
                 animationDelay: `${categoryIndex * 100 + 150}ms`,
               }}
             >
               {/* Category Header */}
-              <div>
+              <div className="min-w-0">
                 <h3 className="font-heading text-xl font-semibold">
                   {category.title}
                 </h3>
@@ -151,20 +154,24 @@ export function Skills() {
               </div>
 
               {/* Skills */}
-              <div className="mt-6 grid grid-cols-2 gap-3">
+              <div className="mt-6 grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2">
                 {category.skills.map((skill) => {
                   const Icon = skill.icon;
 
                   return (
                     <div
                       key={skill.name}
-                      className="group flex items-center gap-3 rounded-xl border border-border bg-background/60 p-3 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:bg-primary/5"
+                      className="group flex min-w-0 items-center gap-3 rounded-xl border border-border bg-background/60 p-3 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:bg-primary/5"
                     >
+                      {/* Icon */}
                       <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-muted text-foreground transition-colors duration-300 group-hover:bg-primary/10 group-hover:text-primary">
                         <Icon className="size-5" />
                       </div>
 
-                      <span className="text-sm font-medium">{skill.name}</span>
+                      {/* Skill Name */}
+                      <span className="min-w-0 whitespace-normal break-words text-sm font-medium leading-5">
+                        {skill.name}
+                      </span>
                     </div>
                   );
                 })}

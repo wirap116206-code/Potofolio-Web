@@ -14,8 +14,10 @@ export function Navbar({ onMenuClick }: NavbarProps) {
   return (
     <header className="sticky top-0 z-30 border-b border-border bg-background/80 backdrop-blur">
       <div className="flex h-16 items-center justify-between px-4 sm:px-6">
+
         {/* Left Side */}
         <div className="flex items-center gap-3">
+
           {/* Mobile Menu */}
           <Button
             variant="ghost"
@@ -41,13 +43,14 @@ export function Navbar({ onMenuClick }: NavbarProps) {
 
         {/* Right Actions */}
         <div className="ml-auto flex items-center gap-2 sm:gap-3">
+
           {/* Theme Toggle */}
           <ThemeToggle />
 
           {/* Download CV */}
           <a
-            href="/cv/CV-ATS-RicksanWira.docx"
-            download="CV-ATS-RicksanWira.docx"
+            href="/cv/CV-ATS-RicksanWira.pdf"
+            download="CV-ATS-RicksanWira.pdf"
             className="inline-flex h-9 items-center justify-center gap-2 rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow-xs transition-all hover:bg-primary/90 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             <Download className="size-4" />
