@@ -185,7 +185,7 @@ const mobileProjects: Project[] = [
       "/chat/ch5.jpeg"
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "Socket.io", "Mongo", "Express"],
+    technologies: ["React Native", "Expo", "TypeScript", "Socket.io", "MongoDB", "Express"],
 
     github: "https://github.com/rickGum/FE-chat-app-mobile",
   },
