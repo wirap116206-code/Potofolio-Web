@@ -58,6 +58,7 @@ const webProjects: Project[] = [
 
     technologies: [
       "Express",
+      "React",
       "TypeScript",
       "Tailwind CSS",
       "PostgreSQL",
@@ -110,6 +111,7 @@ const webProjects: Project[] = [
 
     technologies: [
       "Next.js",
+      "Express",
       "TypeScript",
       "Tailwind CSS",
       "PostgreSQL",
@@ -139,7 +141,7 @@ const mobileProjects: Project[] = [
       "/rickm/mr6.jpeg",
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "NativeWind"],
+    technologies: ["React Native", "Expo", "TypeScript", "NativeWind", "Express", "PostgreSQL"],
 
     github: "https://github.com/wirap116206-code/Mobile-medsos-app",
   },
@@ -157,7 +159,7 @@ const mobileProjects: Project[] = [
       "/barberm/bm7.jpeg",
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "NativeWind"],
+    technologies: ["React Native", "Expo", "TypeScript", "NativeWind", "Express", "PostgreSQL"],
 
     github: "https://github.com/rickGum/Mobile-barberz",
   },
@@ -183,7 +185,7 @@ const mobileProjects: Project[] = [
       "/chat/ch5.jpeg"
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "Socket.io"],
+    technologies: ["React Native", "Expo", "TypeScript", "Socket.io", "Mongo", "Express"],
 
     github: "https://github.com/rickGum/FE-chat-app-mobile",
   },
