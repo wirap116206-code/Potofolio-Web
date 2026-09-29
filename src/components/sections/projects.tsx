@@ -44,6 +44,7 @@ const webProjects: Project[] = [
       "Barber management application for managing customers, services, orders, payments, and barber operations.",
 
     images: [
+      "/barber/b.jpeg",
       "/barber/b1.jpeg",
       "/barber/b2.jpeg",
       "/barber/b3.jpeg",
