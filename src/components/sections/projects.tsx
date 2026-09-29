@@ -128,7 +128,7 @@ const webProjects: Project[] = [
 const mobileProjects: Project[] = [
   {
     title: "RickGram Mobile App",
-    description: "A mobile application social media App",
+    description: "A mobile application social media App sharing about your moments",
 
     images: [
       "/rickm/mr1.jpeg",
@@ -145,7 +145,7 @@ const mobileProjects: Project[] = [
   },
   {
     title: "Barberz Admin Mobile App",
-    description: "A mobile application barber management",
+    description: "A mobile application admin pannel barber management",
 
     images: [
       "/barberm/bm1.jpeg",
@@ -171,6 +171,22 @@ const mobileProjects: Project[] = [
 
     github: "https://github.com/rickGum/mobile-recipe-app",
   },
+  {
+    title: "Chatters",
+    description: "A simple chat app mobile realtime with socket.io",
+
+    images: [
+      "/chat/ch1.jpeg",
+      "/chat/ch2.jpeg",
+      "/chat/ch3.jpeg",
+      "/chat/ch4.jpeg",
+      "/chat/ch5.jpeg"
+    ],
+
+    technologies: ["React Native", "Expo", "TypeScript", "Socket.io"],
+
+    github: "https://github.com/rickGum/FE-chat-app-mobile",
+  },
 ];
 
 /* =========================================================
@@ -184,6 +200,15 @@ const uiuxProjects: Project[] = [
       "User interface and user experience designs created in Figma with a focus on clean layouts and usability.",
 
     images: ["/design/design.jpeg"],
+
+    technologies: ["Figma", "UI Design", "UX Design"],
+  },
+  {
+    title: "UI/UX Mobile Design",
+    description:
+      "User interface and user experience designs created in Figma with a focus on clean layouts and usability.",
+
+    images: ["/design/design1.jpeg"],
 
     technologies: ["Figma", "UI Design", "UX Design"],
   },
