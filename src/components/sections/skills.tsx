@@ -11,7 +11,9 @@ import {
   SiPostman,
   SiReact,
   SiTailwindcss,
+  SiSupabase,
   SiTypescript,
+  SiVercel,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -80,6 +82,10 @@ const skillCategories = [
         name: "MongoDB",
         icon: SiMongodb,
       },
+      {
+        name: "Supabase",
+        icon: SiSupabase,
+      },
     ],
   },
   {
@@ -97,6 +103,10 @@ const skillCategories = [
       {
         name: "Figma",
         icon: SiFigma,
+      },
+      {
+        name: "Vercel",
+        icon: SiVercel,
       },
     ],
   },

@@ -11,7 +11,6 @@ interface Project {
   github?: string;
 }
 
-
 const webProjects: Project[] = [
   {
     title: "Resume",
@@ -93,6 +92,18 @@ const webProjects: Project[] = [
 
     github: "https://github.com/wirap116206-code/FE-medsos-app",
   },
+  {
+    title: "NakTidor",
+    description:
+      "NakTidor is a sleep tracking application that helps users record their sleep duration, view sleep history, and monitor their average and best sleep duration to build healthier sleep habits",
+    images: [
+      "/nakTidor/nak1.jpeg",
+      "/nakTidor/nak2.jpeg",
+      "/nakTidor/nak3.jpeg",
+    ],
+    technologies: ["Next.js", "Tailwind CSS", "Supabase"],
+    github: "https://github.com/wirap116206-code/NakTidor",
+  },
 
   {
     title: "Barberz Customer",
@@ -131,7 +142,8 @@ const webProjects: Project[] = [
 const mobileProjects: Project[] = [
   {
     title: "RickGram Mobile App",
-    description: "A mobile application social media App sharing about your moments",
+    description:
+      "A mobile application social media App sharing about your moments",
 
     images: [
       "/rickm/mr1.jpeg",
@@ -142,7 +154,14 @@ const mobileProjects: Project[] = [
       "/rickm/mr6.jpeg",
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "NativeWind", "Express", "PostgreSQL"],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "NativeWind",
+      "Express",
+      "PostgreSQL",
+    ],
 
     github: "https://github.com/wirap116206-code/Mobile-medsos-app",
   },
@@ -160,7 +179,14 @@ const mobileProjects: Project[] = [
       "/barberm/bm7.jpeg",
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "NativeWind", "Express", "PostgreSQL"],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "NativeWind",
+      "Express",
+      "PostgreSQL",
+    ],
 
     github: "https://github.com/rickGum/Mobile-barberz",
   },
@@ -183,10 +209,17 @@ const mobileProjects: Project[] = [
       "/chat/ch2.jpeg",
       "/chat/ch3.jpeg",
       "/chat/ch4.jpeg",
-      "/chat/ch5.jpeg"
+      "/chat/ch5.jpeg",
     ],
 
-    technologies: ["React Native", "Expo", "TypeScript", "Socket.io", "MongoDB", "Express"],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Socket.io",
+      "MongoDB",
+      "Express",
+    ],
 
     github: "https://github.com/rickGum/FE-chat-app-mobile",
   },
@@ -215,7 +248,6 @@ const uiuxProjects: Project[] = [
 
     technologies: ["Figma", "UI Design", "UX Design"],
   },
-  
 ];
 
 interface ProjectCardProps {
