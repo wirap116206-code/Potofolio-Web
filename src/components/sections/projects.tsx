@@ -15,7 +15,7 @@ const webProjects: Project[] = [
   {
     title: "Resume",
     description:
-      "A personal resume website designed to present my profile, skills, experience, and projects in a clean and modern interface.",
+      "A personal resume website showcasing my profile, technical skills, experience, and projects through a clean and modern interface.",
 
     images: [
       "/resume/res1.jpeg",
@@ -26,21 +26,21 @@ const webProjects: Project[] = [
     ],
 
     technologies: [
+      "React",
       "Express",
       "JavaScript",
       "Tailwind CSS",
       "MongoDB",
       "PrebuildUI",
-      "React",
     ],
 
     github: "https://github.com/wirap116206-code/resume-app",
   },
 
   {
-    title: "Barberz Admin Pannel",
+    title: "Barberz Admin Panel",
     description:
-      "Barber management application for managing customers, services, orders, payments, and barber operations.",
+      "A barber management application for managing customers, barber services, orders, payments, and daily operations.",
 
     images: [
       "/barber/b.jpeg",
@@ -57,8 +57,8 @@ const webProjects: Project[] = [
     ],
 
     technologies: [
-      "Express",
       "React",
+      "Express",
       "TypeScript",
       "Tailwind CSS",
       "PostgreSQL",
@@ -71,7 +71,7 @@ const webProjects: Project[] = [
   {
     title: "RickGram",
     description:
-      "A social media application for sharing content and connecting with other users.",
+      "A social media application that allows users to share posts, interact with other users, and engage with content.",
 
     images: [
       "/rick/ric.jpeg",
@@ -82,9 +82,9 @@ const webProjects: Project[] = [
     ],
 
     technologies: [
+      "React",
       "Express",
       "JavaScript",
-      "React",
       "Tailwind CSS",
       "PostgreSQL",
       "DaisyUI",
@@ -92,23 +92,27 @@ const webProjects: Project[] = [
 
     github: "https://github.com/wirap116206-code/FE-medsos-app",
   },
+
   {
     title: "NakTidor",
     description:
-      "NakTidor is a sleep tracking application that helps users record their sleep duration, view sleep history, and monitor their average and best sleep duration to build healthier sleep habits",
+      "A sleep tracking application that helps users record sleep duration, review sleep history, and monitor average and longest sleep sessions to support healthier sleep habits.",
+
     images: [
       "/nakTidor/nak1.jpeg",
       "/nakTidor/nak2.jpeg",
       "/nakTidor/nak3.jpeg",
     ],
+
     technologies: ["Next.js", "Tailwind CSS", "Supabase"],
+
     github: "https://github.com/wirap116206-code/NakTidor",
   },
 
   {
     title: "Barberz Customer",
     description:
-      "Customer-facing barber application for browsing services and interacting with the barber booking system.",
+      "A customer-facing barber booking application that allows users to explore available services and interact with the barber booking system.",
 
     images: [
       "/barberz/br1.jpeg",
@@ -135,15 +139,11 @@ const webProjects: Project[] = [
   },
 ];
 
-/* =========================================================
-   MOBILE APPS
-========================================================= */
-
 const mobileProjects: Project[] = [
   {
     title: "RickGram Mobile App",
     description:
-      "A mobile application social media App sharing about your moments",
+      "A social media mobile application that allows users to share moments and interact with content on the go.",
 
     images: [
       "/rickm/mr1.jpeg",
@@ -165,9 +165,11 @@ const mobileProjects: Project[] = [
 
     github: "https://github.com/wirap116206-code/Mobile-medsos-app",
   },
+
   {
     title: "Barberz Admin Mobile App",
-    description: "A mobile application admin pannel barber management",
+    description:
+      "A mobile application for administrators to manage barber operations, customers, services, orders, and payments.",
 
     images: [
       "/barberm/bm1.jpeg",
@@ -190,9 +192,11 @@ const mobileProjects: Project[] = [
 
     github: "https://github.com/rickGum/Mobile-barberz",
   },
+
   {
     title: "Recipe Mobile App",
-    description: "A mobile application recipe with dummy json",
+    description:
+      "A recipe mobile application that displays recipe data retrieved from a mock JSON data source.",
 
     images: ["/recipe/rec1.jpeg", "/recipe/rec2.jpeg", "/recipe/rec3.jpeg"],
 
@@ -200,9 +204,11 @@ const mobileProjects: Project[] = [
 
     github: "https://github.com/rickGum/mobile-recipe-app",
   },
+
   {
     title: "Chatters",
-    description: "A simple chat app mobile realtime with socket.io",
+    description:
+      "A real-time mobile chat application built with Socket.IO that enables users to communicate through instant messaging.",
 
     images: [
       "/chat/ch1.jpeg",
@@ -216,7 +222,7 @@ const mobileProjects: Project[] = [
       "React Native",
       "Expo",
       "TypeScript",
-      "Socket.io",
+      "Socket.IO",
       "MongoDB",
       "Express",
     ],
@@ -224,10 +230,6 @@ const mobileProjects: Project[] = [
     github: "https://github.com/rickGum/FE-chat-app-mobile",
   },
 ];
-
-/* =========================================================
-   UI / UX DESIGN
-========================================================= */
 
 const uiuxProjects: Project[] = [
   {
