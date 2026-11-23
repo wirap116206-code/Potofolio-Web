@@ -109,33 +109,10 @@ export function Contact() {
           })}
         </div>
 
-        {/* CTA */}
-        <div className="mt-10 animate-fade-up rounded-2xl border border-primary/20 bg-primary/5 p-8 text-center [animation-delay:600ms]">
-          <h3 className="font-heading text-2xl font-semibold">
-            Let&apos;s build something together.
-          </h3>
-
-          <p className="mx-auto mt-3 max-w-xl leading-7 text-muted-foreground">
-            I&apos;m always open to discussing new projects, creative ideas, and
-            opportunities to grow and collaborate.
-          </p>
-
-          <a
-            href="https://wa.me/6283198982989"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-all duration-300 hover:-translate-y-1 hover:opacity-90 hover:shadow-lg"
-          >
-            <MessageCircle className="size-4" />
-            Chat on WhatsApp
-            <ArrowUpRight className="size-4" />
-          </a>
-        </div>
-
         {/* Footer */}
         <div className="mt-16 border-t border-border pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            Thanks for visiting my portfolio. 
+            Thanks for visiting my portfolio.
           </p>
         </div>
       </div>

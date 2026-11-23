@@ -104,7 +104,7 @@ const webProjects: Project[] = [
       "/nakTidor/nak3.jpeg",
     ],
 
-    technologies: ["Next.js", "Tailwind CSS", "Supabase"],
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
 
     github: "https://github.com/wirap116206-code/NakTidor",
   },
@@ -136,6 +136,56 @@ const webProjects: Project[] = [
     ],
 
     github: "https://github.com/rickGum/NextJs-project-5-customer-view",
+  },
+  {
+    title: "Reads",
+    description:
+      "Reads is a Threads-inspired social media platform where users can share thoughts, connect with others, and engage in meaningful conversations. Built to make sharing ideas simple and social.",
+
+    images: [
+      "/reads/reads1.jpeg",
+      "/reads/reads2.jpeg",
+      "/reads/reads3.jpeg",
+      "/reads/reads4.jpeg",
+      "/reads/reads5.jpeg",
+      "/reads/reads6.jpeg",
+      "/reads/reads7.jpeg",
+      "/reads/reads8.jpeg",
+    ],
+
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+
+    github: "https://github.com/wirap116206-code/Reads",
+  },
+  {
+    title: "Free Event",
+    description:
+      "Free Event is an event discovery and booking platform that allows users to explore upcoming events, discover exciting experiences, and easily register for events. Designed to make finding and joining events simple and accessible.",
+
+    images: [
+      "/event/event1.jpeg",
+      "/event/event2.jpeg",
+      "/event/event3.jpeg",
+      "/event/event4.jpeg",
+      "/event/event5.jpeg",
+      "/event/event6.jpeg",
+      "/event/event7.jpeg",
+      "/event/event8.jpeg",
+      "/event/event9.jpeg",
+      "/event/event10.jpeg",
+    ],
+
+    technologies: [
+      "React",
+      "Gin",
+      "TypeScript",
+      "Golang",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "PrebuildUI",
+    ],
+
+    github: "https://github.com/wirap116206-code/event-app-FE",
   },
 ];
 

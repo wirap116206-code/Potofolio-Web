@@ -14,6 +14,9 @@ import {
   SiSupabase,
   SiTypescript,
   SiVercel,
+  SiGo,
+  SiGin,
+  SiDocker,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -22,92 +25,44 @@ const skillCategories = [
     title: "Languages",
     description: "Core technologies I use to build applications.",
     skills: [
-      {
-        name: "HTML",
-        icon: SiHtml5,
-      },
-      {
-        name: "CSS",
-        icon: SiCss,
-      },
-      {
-        name: "JavaScript",
-        icon: SiJavascript,
-      },
-      {
-        name: "TypeScript",
-        icon: SiTypescript,
-      },
+      { name: "HTML", icon: SiHtml5 },
+      { name: "CSS", icon: SiCss },
+      { name: "JavaScript", icon: SiJavascript },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "Golang", icon: SiGo },
     ],
   },
   {
     title: "Libraries & Frameworks",
     description: "Tools I use to build modern web and mobile applications.",
     skills: [
-      {
-        name: "Tailwind CSS",
-        icon: SiTailwindcss,
-      },
-      {
-        name: "Express.js",
-        icon: SiExpress,
-      },
-      {
-        name: "React",
-        icon: SiReact,
-      },
-      {
-        name: "Next.js",
-        icon: SiNextdotjs,
-      },
-      {
-        name: "React Native (Expo)",
-        icon: SiReact,
-      },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
+      { name: "Express.js", icon: SiExpress },
+      { name: "React", icon: SiReact },
+      { name: "Next.js", icon: SiNextdotjs },
+      { name: "React Native", icon: SiReact },
+      { name: "Gin", icon: SiGin },
     ],
   },
   {
     title: "Databases",
     description: "Databases I have worked with in application development.",
     skills: [
-      {
-        name: "PostgreSQL",
-        icon: SiPostgresql,
-      },
-      {
-        name: "MySQL",
-        icon: SiMysql,
-      },
-      {
-        name: "MongoDB",
-        icon: SiMongodb,
-      },
-      {
-        name: "Supabase",
-        icon: SiSupabase,
-      },
+      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "MySQL", icon: SiMysql },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "Supabase", icon: SiSupabase },
     ],
   },
   {
     title: "Software & Tools",
     description: "Tools I use for development, testing, and design.",
     skills: [
-      {
-        name: "VS Code",
-        icon: VscVscode,
-      },
-      {
-        name: "Postman",
-        icon: SiPostman,
-      },
-      {
-        name: "Figma",
-        icon: SiFigma,
-      },
-      {
-        name: "Vercel",
-        icon: SiVercel,
-      },
+      { name: "VS Code", icon: VscVscode },
+      { name: "Postman", icon: SiPostman },
+      { name: "Figma", icon: SiFigma },
+      { name: "Vercel", icon: SiVercel },
+      { name: "Docker", icon: SiDocker },
     ],
   },
 ];
